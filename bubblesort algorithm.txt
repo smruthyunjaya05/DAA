@@ -1,0 +1,10 @@
+Algorithm Steps for Bubble Sort
+
+step 1:Start at the beginning of the list.
+step 2:Compare the first two elements.
+step 3:If the first element is greater than the second, swap them.
+step 4:Move to the next pair of elements and repeat the comparison and swap steps.
+step 5:Continue this process until you reach the end of the list.
+step 6:Repeat the entire process for the entire list, excluding the last element each time
+ (since the last element already in place).
+step 7:Continue until no swaps are needed.

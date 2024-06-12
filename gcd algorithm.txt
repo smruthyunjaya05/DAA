@@ -1,0 +1,12 @@
+Algorithm Steps find the GCD of two numbers
+step 1:	Input the Numbers:
+	Read the integers n1n1n1 and n2n2n2.
+step 2:	Initialize Variables:
+	Initialize a variable GCD_NumGCD\_NumGCD_Num to store the GCD.
+	Initialize a loop counter iii.
+step 3:	Iterate to Find Divisors:
+	Loop from i=1i = 1i=1 to the minimum of n1n1n1 and n2n2n2:
+	If n1mod  i==0n1 \mod i == 0n1modi==0 and n2mod  i==0n2 \mod i == 0n2modi==0:
+	Set GCD_NumGCD\_NumGCD_Num to iii (store the current divisor as the GCD).
+step 4:	Output the GCD:
+	Print the value of GCD_NumGCD\_NumGCD_Num.
