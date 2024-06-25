@@ -1,0 +1,20 @@
+Algorithm to Solve Tower of Hanoi
+1.Function Definition:
+	towerOfHanoi(n, from_rod, to_rod, aux_rod)
+	Input: n (number of disks to move), from_rod (rod from which disks are initially stacked), to_rod (rod to which disks need to be moved), 	aux_rod (auxiliary rod)
+	Output: Prints the sequence of moves required to move all disks from from_rod to to_rod.
+2.Base Case:
+	If n == 1:
+	Print the move: "Move disk 1 from rod <from_rod> to rod <to_rod>".
+	Return.
+3.Recursive Case:
+	Move n-1 disks from from_rod to aux_rod using to_rod as auxiliary:
+	Call towerOfHanoi(n - 1, from_rod, aux_rod, to_rod).
+	Move the n-th disk from from_rod to to_rod:
+	Print the move: "Move disk <n> from rod <from_rod> to rod <to_rod>".
+	Move n-1 disks from aux_rod to to_rod using from_rod as auxiliary:
+	Call towerOfHanoi(n - 1, aux_rod, to_rod, from_rod).
+4.Main Function (main):
+	Initialize n as the number of disks (n = 4 in this case).
+	Call towerOfHanoi(n, 'A', 'C', 'B') to start the tower of Hanoi with rods named A, B, and C.
+

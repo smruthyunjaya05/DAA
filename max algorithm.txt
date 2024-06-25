@@ -1,0 +1,15 @@
+Algorithm: Finding the Maximum Value in an Array
+Step 1: Initialize the Array
+	•Initialize an array arr with some integer values.
+Step 2: Determine the Size of the Array
+	•Calculate the size of the array n as sizeof(arr) / sizeof(arr[0]), which gives the number of elements in the array.
+Step 3: Initialize Variables
+	•Initialize a variable res to store the maximum element found so far.
+	•Set res to the first element of the array, i.e., arr[0].
+Step 4: Find the Maximum Element
+	•Iterate through the array from index 0 to n-1.
+	•For each element arr[i], compare it with res:
+        	•If arr[i] is greater than res, update res to arr[i].
+Step 5: Output the Maximum Value
+	•After the loop completes, res contains the maximum value in the array.
+	•Print res as the maximum value of the array.

@@ -1,0 +1,13 @@
+Algorithm to Calculate Factorial of a Number
+1.Input:
+	Prompt the user to enter an integer n.
+	Read the integer input n.
+2.Initialization:
+	Initialize a variable fact to store the factorial value, starting with 1.
+3.Factorial Calculation Loop:
+	While n is greater than 0, repeat the following steps:
+	Multiply fact by n and assign the result back to fact.
+	Decrement n by 1.
+4.Output:
+	Print the value of fact, which is the factorial of the input integer n.
+
