@@ -1,0 +1,12 @@
+Fibonacci series Algorithm
+Step 1:	Start
+Step 2:	Read the binary number from the user, say 'binary_number'
+Step 3:	Initialize the decimal number, decimal_number = 0
+Step 4:	Initialize i = 0
+Step 5:	Repeat while binary_number != 0:
+		Extract the last digit of binary_number using remainder = binary_number % 10
+		Divide binary_number by 10 (binary_number = binary_number // 10)
+		Update decimal_number using the formula decimal_number = decimal_number + (remainder * 2^i)
+		Increment i by 1
+Step 6:	Display the decimal number, decimal_number
+Step 7:	Stop
